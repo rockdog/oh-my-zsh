@@ -39,8 +39,8 @@ for plugin ($plugins); do
 done
 
 # Load and run compinit
-autoload -U compinit
-compinit -i
+# autoload -U compinit
+# compinit -i
 
 
 # Load all of the plugins that were defined in ~/.zshrc
