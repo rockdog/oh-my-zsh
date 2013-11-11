@@ -51,7 +51,7 @@ ZSH_COMPDUMP="${ZDOTDIR:-${HOME}}/.zcompdump-${SHORT_HOST}-${ZSH_VERSION}"
 
 # Load and run compinit
 autoload -U compinit
-compinit -i -d "${ZSH_COMPDUMP}"
+compinit -u -d "${ZSH_COMPDUMP}"
 
 # Load all of the plugins that were defined in ~/.zshrc
 for plugin ($plugins); do
